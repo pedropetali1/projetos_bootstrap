@@ -1,0 +1,56 @@
+:root {
+    --bs-main-color: #ececec
+}
+
+.container#main{
+    height: 100vh;
+    background-color: var(--bs-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 25px;
+}
+
+.form-floating.mb-3:active{
+    box-shadow: none;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 2%;
+    padding-top: 0;
+}
+
+h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 10px 10px;
+}
+
+input.btn.btn-primary {
+    width: 100%;
+}
+
+h6 a {
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.btn.btn-primary.mb-3 {
+    width: 50%;
+    padding: 12px;
+    font-size: 13px;
+}
+
+i.bi.bi-google {
+    margin-right: 5px;
+}
